@@ -8,11 +8,10 @@ def main():
         'UC-OVMPlMA3-YCIeg4z5z23A',  # вДудь
         # 'UCwHL6WHUarjGfUM_586me8w'  # Редакция
     ]
-    # params = config()
+    params = config()
 
     data = get_you_tube_data(api_key, channel_ids)
-    print(data)
-    # create_datebase('YouTube', params)
+    create_datebase('YouTube', params)
     # save_date_to_datebase(data, 'YouTube', params)
 
 
